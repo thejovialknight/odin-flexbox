@@ -1,78 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
 		<meta charset="UTF-8">
 		<title>Odin Flexbox</title>
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 	</head>
+		
 	<body>
-		<div class="header" class="flex-container">
-			<div class="header-bar" class="flex-container">
-				<h1 class="flex-item">Header Logo</h1>
-				<div class="flex-container" class="flex-item">
-					<a class="flex-item">header link one</a>
-					<a class="flex-item">header link two</a>
-					<a class="flex-item">header link three</a>
+		<div id="nav-section" class="section">
+			<div id="nav-content" class="wide">
+				<h1 id="nav-logo">Header Logo</h1>
+				<div id="nav-links">
+					<a href="#"><span>header link one</span></a>
+					<a href="#"><span>header link two</span></a>
+					<a href="#"><span>header link three</span></a>
 				</div>
 			</div>
+		</div>
 
-			<div class="hero-container" class="flex-container">
-				<div class="hero-text">
+		<div id="header-section" class="section"> 
+			<div id="header-content" class="wide">
+				<div id="hero-splash">
 					<h2>This website is awesome</h2>
-					<p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-					<button type=button>Sign up!</button>
+					<p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+					<button>Sign up</button>
 				</div>
 
-				<div class="hero-image">
-					<img src="../images/hero.jpg">
-				</div>
-			</div>
-		</div>
-
-		<div class="information" class="flex-container">
-			<h2 class="info-header">Some random information</h2>
-			<div class="information-tiles" class="flex-container">
-				<div class="vertical-flex-container">
-					<img src="info-1.jpg">
-					<p>this is some subtext under an illustration or image</p>
-				</div>
-
-
-				<div class="vertical-flex-container">
-					<img src="info-2.jpg">
-					<p>this is some subtext under an illustration or image</p>
-				</div>
-
-
-				<div class="vertical-flex-container">
-					<img src="info-3.jpg">
-					<p>this is some subtext under an illustration or image</p>
-				</div>
-
-
-				<div class="vertical-flex-container">
-					<img src="info-4.jpg">
-					<p>this is some subtext under an illustration or image</p>
+				<div id="header-image" class="item">
+					<img src="./images/orchid.jpg">
 				</div>
 			</div>
 		</div>
 
-		<div class="quote">
-			<h2>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</h2>
-			<h3>Thor, God of Thunder</h3>
-		</div>
-
-		<div class="call-to-action" class="flex-container">
-			<div class="call-to-action-text">
-				<h2>Call to action! It's time!</h2>
-				<p>Sign up for our product by clicking that button right over there!</p>
+		<div id="info-section" class="section">
+			<div id="info-content" class="narrow">
+				<h2>Some random information.</h2>
+				<div id="info-images">
+					<div class="info-image">
+						<img src="./images/info-1.jpg">
+						<p>this is some subtext under an illustration or image</p>
+					</div>
+					<div class="info-image">
+						<img src="./images/info-2.jpg">
+						<p>this is some subtext under an illustration or image</p>
+					</div>
+					<div class="info-image">
+						<img src="./images/info-3.jpg">
+						<p>this is some subtext under an illustration or image</p>
+					</div>
+					<div class="info-image">
+						<img src="./images/info-4.jpg">
+						<p>this is some subtext under an illustration or image</p>
+					</div>
+				</div>
 			</div>
-			<button type=button>Sign up</button>
 		</div>
 
-		<div class="footer">
-			<h3>Copyright ICON HERE The Odin Project 2021</h3>
+		<div id="quote-section" class="section"> 
+			<div id="quote-content" class="narrow">
+				<h2>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space or maybe people will actually read it. Who knows? All I know is that it looks nice.</h2>
+				<h3>-Thor, God of Thunder</h3>
+			</div>
+		</div>
+
+		<div id="cta-section" class="section">
+			<div id="cta-content" class="wide">
+				<div id="cta-text">
+					<h2>Call to action! It's time!</h2>
+					<p>Sign up for out product by clicking that button right over there!</p>
+				</div>
+				<div id="cta-button">
+					<button>Sign up</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer-section" class"section">
+			<p>Copyright © Conner Moulaison 2022</p>
+		</div>
+
 		</div>
 	</body>
 </html>
+
